@@ -18,11 +18,11 @@ description: Dónde y cómo obtener datos económicos oficiales de Colombia (DAN
 | --- | --- | --- |
 | Mercado laboral, informalidad, ingresos, condición migratoria | DANE, Gran Encuesta Integrada de Hogares (GEIH), microdatos en el catálogo ANDA | Descarga de microdatos; leer con `haven` o `readr`; usar factores de expansión |
 | Población migrante | DANE, Encuesta Pulso de la Migración y proyecciones de población | Microdatos ANDA o anexos en Excel con `readxl` |
-| Flujos y stock de migrantes venezolanos, Estatuto Temporal de Protección | Migración Colombia; datos abiertos en datos.gov.co | `RSocrata` para conjuntos en datos.gov.co |
+| Flujos y stock de migrantes venezolanos, Estatuto Temporal de Protección | Migración Colombia; datos abiertos en datos.gov.co | `readr::read_csv()` sobre la URL `https://www.datos.gov.co/resource/<id>.csv?$limit=...` (API SODA; RSocrata ya no está en CRAN) |
 | PIB departamental y por actividad | DANE, Cuentas departamentales | Anexos en Excel con `readxl` |
 | Precios | DANE, IPC por ciudades (Cali) | Anexos en Excel |
 | Tasas, TRM, remesas | Banco de la República, series estadísticas | Descarga de series; `readxl` o `readr` |
-| Delitos | Policía Nacional (SIEDCO) en datos.gov.co | `RSocrata` |
+| Delitos | Policía Nacional (SIEDCO) en datos.gov.co | API SODA con `readr` |
 | Indicadores territoriales | DNP, TerriData | Descarga de archivos |
 | Comparaciones internacionales | Banco Mundial | Paquete `WDI` |
 
