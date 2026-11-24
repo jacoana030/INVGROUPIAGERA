@@ -7,7 +7,7 @@ if (!file.exists("renv.lock")) renv::init(bare = TRUE)
 
 paquetes <- c(
   # Datos
-  "tidyverse", "readxl", "haven", "arrow", "janitor", "RSocrata", "WDI",
+  "tidyverse", "readxl", "haven", "arrow", "janitor", "httr2", "WDI",
   # Literatura
   "openalexR", "pdftools",
   # Econometría y tablas (fase 2)
