@@ -1,0 +1,100 @@
+---
+title: "Migración venezolana y economía de Cali y el Valle del Cauca: qué sabemos, qué falta y qué estudiar"
+subtitle: "Nota breve de política · Grupo GERA"
+date: 2026-11-24
+lang: es
+bibliography: ../literatura/referencias.bib
+format:
+  html:
+    toc: false
+  pdf:
+    papersize: letter
+    geometry: margin=2.5cm
+---
+
+::: {.callout-note}
+**Estado:** borrador para revisión de Jacobo (gestor). No sale del grupo sin su visto bueno. Todas las cifras tienen una fila en `registro/verificacion_cifras.csv` (identificador entre corchetes) con estado *verificada* o *corregida*.
+:::
+
+## Mensajes clave
+
+1. **La evidencia nacional es abundante y coincide en lo esencial.** La llegada de migrantes venezolanos casi no cambió el empleo de los colombianos, pero sí presionó a la baja los salarios, sobre todo de los trabajadores informales y poco calificados, y redujo la participación laboral de las mujeres nativas con menos educación.
+2. **Para Cali y el Valle no existe ninguna estimación causal.** Lo publicado sobre Cali son estudios cualitativos o encuestas de organizaciones con muestras pequeñas. Los efectos nacionales son promedios y la literatura muestra que cambian con la informalidad local, así que no pueden trasladarse sin más a Cali.
+3. **El vacío se puede cerrar con datos públicos.** La Gran Encuesta Integrada de Hogares (GEIH) del DANE tiene a Cali y su área metropolitana como dominio de estudio y pregunta dónde vivía la persona hace 12 meses y hace 5 años. Es la base para una primera estimación del efecto de la migración en el mercado laboral caleño.
+4. **Recomendación:** estudiar el efecto de la migración sobre los salarios, la informalidad y la participación laboral de los trabajadores nativos de Cali, y compararlo con el de las demás áreas metropolitanas.
+
+## 1. Contexto en cifras
+
+El Valle del Cauca concentraba el 5,3% de los inmigrantes que el Censo de 2018 registró según su residencia cinco años antes [V005]. En el sistema de salud, el departamento tenía 151.611 migrantes afiliados en marzo de 2025 [V006], dentro de 1.571.767 venezolanos afiliados en el país [V007]. En educación, la participación de niños, niñas y adolescentes venezolanos en la matrícula nacional pasó de 4,5% en 2019 a 6,8% en 2023 [V008].
+
+En el mercado laboral nacional, la GEIH de 2018 mostró una tasa de desempleo de 21,0% para quienes vivían en Venezuela doce meses antes, frente a 14,7% para el resto [V003]. No hay una cifra oficial pública y verificada del número de venezolanos que viven hoy en Cali: las cifras de prensa no citan su fuente con precisión y por eso esta nota no las usa.
+
+## 2. Qué dice la evidencia, por tema
+
+La revisión cubrió 105 documentos hallados en OpenAlex y una búsqueda dirigida de la literatura de referencia. Tras el cribado quedaron 57 documentos en la matriz de literatura y 35 con ficha de lectura. Los estudios con mejor identificación comparan regiones según la llegada de migrantes predicha por redes previas (instrumentos de tipo *shift-share* o de enclave), por la distancia a la frontera o por diferencias en diferencias.
+
+### Mercado laboral: salarios, empleo e informalidad
+
+- **Salarios.** El signo es negativo en casi toda la literatura y la magnitud varía. Por cada punto porcentual de aumento en la proporción de migrantes, @lebow2022 estima una caída de 1,05% en el salario de los nativos, que se reduce a 0,59% al controlar tendencias regionales [S002, S003]. @penaloza2022 estima una caída de 0,4% en el salario por hora por cada punto porcentual de aumento de la oferta laboral [S005]. @santamaria2022 no encuentra efectos con registros administrativos.
+- **Empleo.** El efecto sobre el empleo nativo es pequeño: @penaloza2022 encuentra una caída de 0,1 puntos porcentuales en la tasa de empleo de los poco calificados por cada punto de aumento de la oferta [S004]. @bonillamejia2024 muestra que el ajuste ocurre sobre todo por menor participación laboral y que el desempleo sube entre los propios migrantes.
+- **Informalidad.** @delgado2022 encuentra que el salario cae en el sector informal y que el empleo formal nativo se reduce donde el salario mínimo es más restrictivo. @lebow2022 muestra efectos salariales mayores en las ciudades con más informalidad inicial. Este punto es central para Cali, una ciudad con alta informalidad.
+- **Degradación ocupacional.** Muchos migrantes con educación terminan en empleos de baja calificación. Según @lebow2024, eso agrava en 30% el efecto negativo sobre los nativos sin secundaria completa en el corto plazo, y hasta 80% en el largo plazo cuando el capital se ajusta [S007, S008].
+
+### Género
+
+La participación laboral cae para las mujeres nativas poco calificadas y sube para las muy calificadas con hijos: +1,6 puntos porcentuales según @otero2022 [S009]. El mecanismo propuesto por @pedrazzi2022 es el menor costo del servicio doméstico.
+
+### Regularización
+
+La amnistía del Permiso Especial de Permanencia (PEP) tuvo efectos insignificantes sobre el empleo formal de los colombianos en conjunto [@bahar2021]. Detrás de ese resultado hay efectos de composición, negativos para algunos grupos de nativos y positivos para los venezolanos.
+
+### Precios, vivienda y productividad
+
+Por cada punto porcentual de aumento en la tasa migratoria, los precios de los bienes no transables suben 0,913% [@daly2021; S015]. En las principales ciudades, un aumento de 1% en la proporción de inmigrantes eleva los arriendos cerca de 1,25% [@forero2022; S016]. En la industria, @benitez2023 estima un aumento de 7,6% en la productividad laboral por cada punto de cuota migrante, explicado por menos empleo y horas, no por más producción [S010].
+
+### Finanzas públicas
+
+El costo de salud, educación y primera infancia fue de 0,12% del PIB en 2017-2019, con proyecciones de 0,19% a 0,42% del PIB para 2020-2022 según el escenario [@melo2020; S011, S012]. Estos cálculos dependen de supuestos de cobertura y no hay estimaciones para Cali.
+
+### Seguridad y actitudes
+
+La única evidencia causal sobre crimen viene de municipios fronterizos: los homicidios suben por víctimas venezolanas, sin efecto significativo sobre víctimas colombianas [@knight2023]. No debe extrapolarse a ciudades grandes como Cali. En actitudes, un experimento con 2.508 adultos colombianos muestra preferencia por políticas con pocas o ninguna restricción al acceso laboral y a la salud subsidiada de los venezolanos [@allen2023; S017, S018].
+
+## 3. Qué se sabe de Cali y el Valle
+
+| Tema | Evidencia nacional | Evidencia para Cali o el Valle |
+|---|---|---|
+| Salarios y empleo | Alta | Ninguna cuantitativa |
+| Informalidad | Media-alta | Solo encuestas y estudios cualitativos |
+| Género | Media-alta | Cualitativa (discriminación) |
+| Regularización | Alta en calidad | Solo encuesta de ONG |
+| Precios y vivienda | Media-baja | Cualitativa |
+| Seguridad | Media, solo frontera | Solo percepciones |
+| PIB, empresas, finanzas | Baja | Ninguna |
+
+Lo que hay para Cali es descriptivo. @roa2025 documenta, con 20 mujeres venezolanas calificadas, la discriminación por nacionalidad y género al buscar empleo. Una encuesta a 327 migrantes en Cali reporta 8,8% con empleo formal y 63,64% en trabajo informal, y 29,1% con Permiso por Protección Temporal y 14,7% con PEP [@internews2022; S020, S021, S025, S026]. Ese informe no tiene autores individuales y se usa solo como contexto.
+
+## 4. Datos públicos disponibles para Cali
+
+- **GEIH (DANE):** microdatos libres, Cali y su área metropolitana como dominio, preguntas de residencia previa en Venezuela. Permite estimar efectos laborales comparando ciudades. Antes hay que medir cuántos migrantes por mes capta la muestra en Cali y cómo empalman las series tras el cambio de marco muestral de 2021.
+- **Encuesta Pulso de la Migración (DANE):** ocho rondas entre 2021 y 2025 en 23 ciudades, incluida Cali; la ronda 8 tuvo 7.532 personas con encuesta completa [V004]. Describe a los migrantes, pero no incluye nativos para comparar.
+- **Censo 2018, afiliación en salud y matrícula escolar:** útiles como línea de base o contexto, pero con desagregación departamental o nacional.
+- **Sin datos abiertos suficientes:** población venezolana por municipio y año (el pre-registro del Estatuto Temporal de Protección es departamental y se actualizó por última vez en septiembre de 2023 [V014]), empleo formal de migrantes por municipio, delitos totales con nacionalidad y gasto público por nacionalidad.
+
+## 5. Preguntas de investigación propuestas
+
+1. **Recomendada.** ¿Cuánto y por qué canal afectó la migración venezolana los salarios, la informalidad y la participación laboral de los trabajadores nativos de Cali, y en qué difiere ese efecto del promedio de las demás áreas metropolitanas? *Diseño:* panel de 23 áreas metropolitanas con la GEIH 2013-2024, instrumento basado en la distribución de venezolanos antes de 2015 y heterogeneidad por informalidad inicial; control sintético para Cali como prueba de robustez. *Viabilidad:* alta, sujeta al tamaño de muestra.
+2. ¿La regularización (PEP y Estatuto Temporal de Protección) redujo la informalidad de los migrantes en Cali y cambió su efecto sobre los nativos? *Riesgo:* la identificación del estatus en la GEIH y la falta de datos municipales del Estatuto.
+3. ¿Qué efecto tuvo la migración sobre los arriendos y el costo de vida en Cali? *Riesgo:* el IPC mide arriendos formales y no capta la vivienda informal de los migrantes.
+4. ¿Aumentó la migración el delito en Cali o solo la percepción de inseguridad? *Riesgo:* no hay datos abiertos de delitos totales con nacionalidad.
+
+## 6. Próximos pasos sugeridos
+
+1. Medir con la GEIH el tamaño de muestra de migrantes en Cali y la calidad del empalme 2018-2024 (Banana).
+2. Leer completos los estudios cuyas cifras aún no se pudieron verificar y la tesis con experimento en Cali [@mondragon2026].
+3. Si el tamaño de muestra alcanza, pasar a la fase 2 con el Econometrista y la pregunta 1.
+
+## Referencias
+
+::: {#refs}
+:::

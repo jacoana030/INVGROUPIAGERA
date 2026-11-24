@@ -1,1 +1,4 @@
 fecha,proyecto,agente,tarea,costo_estimado,nota
+2026-11-24,migracion-valle,James,cribado de 105 documentos por codigo y titulo,bajo (~1% semanal),cribado en R sin lectura de textos
+2026-11-24,migracion-valle,Camilo,lectura a fondo y fichas (25-40 documentos) + busqueda complementaria,medio (~4-5% semanal),sonnet; lectura solo de resumen/metodo/resultados
+2026-11-24,migracion-valle,Banana,inventario de fuentes publicas Cali/Valle,bajo-medio (~2% semanal),sonnet; sin microdatos pesados
