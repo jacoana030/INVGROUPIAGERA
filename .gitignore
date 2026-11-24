@@ -1,0 +1,18 @@
+# R y RStudio
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Secretos
+.env
+.Renviron
+
+# Archivos pesados: se regeneran con el código
+datos/crudos/*
+!datos/crudos/.gitkeep
+literatura/pdf/*
+
+# Configuración local de Claude Code
+.claude/settings.local.json
