@@ -14,18 +14,25 @@ consultas <- c(
   "Venezuelan migrants Colombia wages informality",
   "Venezuelan migration Colombia crime",
   "Venezuelan migration Colombia economic growth fiscal",
-  "migración venezolana Colombia mercado laboral",
-  "migración venezolana Cali Valle del Cauca"
+  "migracion venezolana Colombia mercado laboral",  # sin tildes: la API no las empareja
+  "migracion venezolana Cali"
 )
 
 buscar <- function(q) {
-  oa_fetch(
+  res <- oa_fetch(
     entity = "works",
-    search = q,
+    title_and_abstract.search = q,
     from_publication_date = "2015-01-01",
+    # Máximo 200 documentos por consulta, los más citados: cribado barato pero acotado
+    options = oa_options(sort = "cited_by_count:desc", per_page = 200,
+                         paging = "page", pages = 1),
     verbose = FALSE
-  ) |>
-    mutate(consulta = q)
+  )
+  if (is.null(res) || nrow(res) == 0) {
+    message("Sin resultados: ", q)
+    return(NULL)
+  }
+  mutate(res, consulta = q)
 }
 
 resultados <- bind_rows(lapply(consultas, buscar))
