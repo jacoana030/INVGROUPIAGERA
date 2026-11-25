@@ -90,7 +90,7 @@ Lo que hay para Cali es descriptivo. @roa2025 documenta, con 20 mujeres venezola
 
 ## 6. Próximos pasos sugeridos
 
-1. Medir con la GEIH el tamaño de muestra de migrantes en Cali y la calidad del empalme 2018-2024 (Banana).
+1. Medir con la GEIH el tamaño de muestra de migrantes en Cali y la calidad del empalme 2018-2024 (James).
 2. Leer completos los estudios cuyas cifras aún no se pudieron verificar y la tesis con experimento en Cali [@mondragon2026].
 3. Si el tamaño de muestra alcanza, pasar a la fase 2 con el Econometrista y la pregunta 1.
 

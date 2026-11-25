@@ -10,9 +10,11 @@ description: Dónde y cómo obtener datos económicos oficiales de Colombia (DAN
 - Siempre la fuente oficial primaria. Anota URL exacta y fecha de consulta en el encabezado del script.
 - Descarga desde R hacia `datos/crudos/`; nunca edites a mano un archivo crudo.
 - Antes de usar un paquete nuevo, verifica que esté en CRAN y regístralo con `renv::snapshot()`.
-- Si una URL cambió o una descarga falla, no inventes datos: deja la falla escrita en la bitácora y avisa a James.
+- Si una URL cambió o una descarga falla, no inventes datos: deja la falla escrita en la bitácora y avisa a Banana.
 
-## Fuentes clave para migración en Cali y el Valle (verificar la URL vigente antes de usar)
+## Fuentes clave para migración en Cali y el Valle
+
+Las URL están en la skill `catalogo-fuentes`; el detalle para Cali y el Valle, en `datos/inventario_fuentes_cali_valle.md`. Para la GEIH, sigue la skill `geih`.
 
 | Tema | Fuente | Cómo |
 | --- | --- | --- |

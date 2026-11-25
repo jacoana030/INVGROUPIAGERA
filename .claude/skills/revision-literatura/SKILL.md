@@ -31,20 +31,7 @@ Solo para `incluir` y `dudoso`. Extrae con `pdftools` el texto del resumen, dato
 
 ## 4. Ficha por documento
 
-`literatura/fichas/<apellido><año>.md`:
-
-```
-Referencia (APA 7):
-Pregunta:
-Datos (fuente, periodo, unidad de análisis, región):
-Método y estrategia de identificación:
-Resultado principal (con magnitud y significancia):
-Resultados para Cali o el Valle (si los hay):
-Limitaciones:
-Calidad (1 a 5) y por qué:
-```
-
-Y una fila en `literatura/matriz_literatura.csv` con las mismas columnas en forma corta.
+Usa la ficha estándar de la skill `ficha-articulo` (archivo `literatura/fichas/<apellido><año>.md`) y añade una fila en `literatura/matriz_literatura.csv`. Esa skill también fija las revistas y series donde se busca primero.
 
 ## 5. Síntesis
 
