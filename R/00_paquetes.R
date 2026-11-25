@@ -11,7 +11,7 @@ paquetes <- c(
   # Literatura
   "openalexR", "pdftools",
   # Econometría y tablas (fase 2)
-  "fixest", "did", "Synth", "modelsummary",
+  "fixest", "did", "Synth", "modelsummary", "survey", "rdrobust",
   # Flujo reproducible e informes
   "targets", "quarto"
 )

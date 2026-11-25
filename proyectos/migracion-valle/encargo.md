@@ -1,7 +1,7 @@
 # Encargo: impacto de la migración en la economía de Cali y el Valle del Cauca
 
 **Solicitado por:** Jacobo (gestor) · 24 de noviembre de 2026
-**Responsable:** James
+**Responsable:** Banana (directora; hasta el 2026-11-24 fue James)
 
 ## Tema
 

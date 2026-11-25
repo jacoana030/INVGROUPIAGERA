@@ -16,3 +16,6 @@ literatura/pdf/*
 
 # Configuración local de Claude Code
 .claude/settings.local.json
+
+# Microdatos GEIH (más de 50 MB por mes): se descargan con R, no se suben
+datos/crudos/geih/

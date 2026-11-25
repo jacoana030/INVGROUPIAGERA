@@ -7,6 +7,8 @@ description: Procedimiento para verificar cada cifra y cita contra su fuente pri
 
 ## Por cada cifra
 
+Aplica la regla cifra-fuente-fecha y el catálogo de la skill `catalogo-fuentes`: sin cifra con unidad y cobertura, fuente con tabla o página, y fecha del dato y de consulta, la cifra no pasa.
+
 1. Identifica la fuente primaria. Si la cifra viene de prensa o de otro artículo, rastrea la fuente original.
 2. Compara: valor exacto, unidad (personas, miles, %, pesos corrientes o constantes), periodo (año, trimestre, trimestre móvil), cobertura (Cali, área metropolitana, Valle, nacional) y redacción (que el texto no diga más de lo que dice la fuente).
 3. Registra una fila en `registro/verificacion_cifras.csv`.
@@ -20,7 +22,7 @@ Comprueba que el documento existe (DOI o URL), que autor y año coinciden, y que
 - `verificada`: coincide en todo.
 - `corregida`: la fuente existe pero el valor, periodo, unidad o redacción no coincidía; se anota el valor correcto.
 - `rechazada`: no se encontró fuente primaria o la fuente no dice eso.
-- `requiere_revision`: ambigüedad o fuentes oficiales en desacuerdo; se escala a James.
+- `requiere_revision`: ambigüedad o fuentes oficiales en desacuerdo; se escala a Banana.
 
 ## Formato del registro
 

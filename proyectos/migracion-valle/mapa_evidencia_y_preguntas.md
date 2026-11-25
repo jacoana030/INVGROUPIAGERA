@@ -49,7 +49,7 @@ Insumos: `literatura/sintesis_aristas.md` (Camilo), `literatura/matriz_literatur
 - Valor: alta atención pública y evidencia causal solo de frontera.
 - Riesgo: sin datos abiertos de delitos totales con nacionalidad; quedaría en categorías parciales o requeriría solicitud a la Policía.
 
-**Recomendación:** P1, con P2 como extensión natural del mismo montaje de datos. Antes de fase 2, Banana debe medir el tamaño de muestra de migrantes en Cali A.M. en la GEIH; si es insuficiente, se cambia a Cali más Valle o a un diseño por grupos de ciudades.
+**Recomendación:** P1, con P2 como extensión natural del mismo montaje de datos. Antes de fase 2, James (analista de datos desde el 2026-11-25) debe medir el tamaño de muestra de migrantes en Cali A.M. en la GEIH; si es insuficiente, se cambia a Cali más Valle o a un diseño por grupos de ciudades.
 
 ## 4. Pendientes
 
