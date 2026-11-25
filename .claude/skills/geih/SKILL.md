@@ -21,7 +21,7 @@ Copia la plantilla a `R/` con número consecutivo (por ejemplo `R/geih_01_lectur
 3. **Errores estándar honestos.** Las cifras por ciudad y grupo llevan coeficiente de variación (CV). Regla del grupo: CV ≤ 15 % se reporta; entre 15 % y 20 % se reporta con advertencia; más de 20 % no se reporta (el DANE usa umbrales parecidos; verificar el que publique en su ficha metodológica vigente).
 4. **No mezclar marcos sin empalme.** Las series que cruzan 2020-2021 usan los factores reponderados que publica el DANE o se analizan por separado con un indicador de marco en la regresión. Documenta la decisión en `datos/procesados/diccionario.md`.
 5. **Unidad geográfica explícita.** Distingue siempre Cali área metropolitana (Cali y Yumbo) de Cali municipio, del Valle del Cauca y del total de 23 ciudades.
-6. **Microdatos pesados fuera de la conversación.** Más de 50 MB por mes: se descarga desde R a `datos/crudos/geih/<año>/<mes>/`, se resume con código y solo el resumen llega a la conversación. Los crudos no se suben a GitHub si superan 50 MB (añádelos a `.gitignore`).
+6. **Microdatos pesados fuera de la conversación.** Más de 50 MB por mes: se descarga desde R a `datos/crudos/geih/<año>/<mes>/`, se resume con código y solo el resumen llega a la conversación. `datos/crudos/` ya está en `.gitignore`: los crudos no se suben a GitHub.
 
 ## Flujo estándar
 
